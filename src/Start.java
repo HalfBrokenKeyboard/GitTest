@@ -6,12 +6,6 @@ import javafx.scene.image.Image;
 import javafx.scene.layout.GridPane;
 import javafx.stage.Stage;
 
-import javax.imageio.ImageIO;
-import java.awt.image.BufferedImage;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Objects;
-
 public class Start extends Application implements Runnable {
     public void start(Stage stage) {
         stage.setTitle("Spil");
@@ -42,7 +36,11 @@ public class Start extends Application implements Runnable {
 
         Image image = new Image("/billede.jpeg");
 
-        graphicsContext.drawImage(image, 10, 10);
+        graphicsContext.drawImage(image, 0, 0);
+
+        graphicsContext.drawImage(new Image("/deez.jpg"), 0, 0 );
+
+
 
         pane.add(canvas, 0,0);
     }
