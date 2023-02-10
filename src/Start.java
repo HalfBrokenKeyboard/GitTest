@@ -39,10 +39,7 @@ public class Start extends Application {
 
         GraphicsContext graphicsContext = canvas.getGraphicsContext2D();
 
-
         Image image = new Image("/billede.jpeg");
-
-
 
         graphicsContext.drawImage(image, 0, 0);
 
