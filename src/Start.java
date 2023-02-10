@@ -46,6 +46,9 @@ public class Start extends Application {
 
         graphicsContext.drawImage(image, 0, 0);
 
+        graphicsContext.drawImage(new Image("/deez.jpg"), 0, 0 );
+
+
 
         pane.add(canvas, 0,0);
     }
