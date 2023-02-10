@@ -1,7 +1,7 @@
 public class Lucas {
     private boolean erGlad = true;
     private int alder = 20;
-    private int højde = 150;
+    private int højde = 149;
 
     public boolean isErGlad() {
         return erGlad;
